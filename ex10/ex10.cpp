@@ -72,7 +72,6 @@ private:
 
 // init with NULLs
 ActivePlayer* ActivePlayer::instances[22] = {0};
-
 int main() {
   // ChessBoard board; // Error because of private constructor
   ChessBoard& board = ChessBoard::getInstance(); // create new instace
